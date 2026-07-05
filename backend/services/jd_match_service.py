@@ -42,7 +42,7 @@ Rules:
 Return JSON only.
 """
 
-    response = llm.run(prompt)
+    response = llm.run_json(prompt)
 
     response = (
         response
